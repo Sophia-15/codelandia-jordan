@@ -154,7 +154,7 @@ footer {
 
 /*MEDIA QUERIES*/
 
-@media (min-width: 2560px) and (max-width: 3840px) {
+@media (min-width: 2020px) and (max-width: 3840px) {
     html {
         font-size: 100%;
     }
