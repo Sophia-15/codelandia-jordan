@@ -154,6 +154,17 @@ footer {
 
 /*MEDIA QUERIES*/
 
+@media (min-width: 2560px) and (max-width: 3840px) {
+    html {
+        font-size: 100%;
+    }
+
+    .product img {
+        height: 13.5rem;
+    }
+}
+
+
 @media (max-width: 705px) {
     html {
         font-size: 55%;
@@ -163,6 +174,7 @@ footer {
         padding: 15rem 10%;
     }
 }
+
 
 
 @media (max-width: 445px) {
