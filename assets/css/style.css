@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&display=swap');
+
+:root {
+    --bgSite: #f6f6f6;
+    --bgCard: #ebe9ea;
+    
+    --white: #fff;
+  
+    --title: #181818;
+    --text: #474747;
+  }
+  
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+html {
+    font-size: 62.5%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background: var(--bgSite);
+}
+
+
+.header-promo {
+    width: 100%;
+    background: var(--title);
+
+    color: var(--white);
+    text-align: center;
+    font-weight: 500;
+    font-size: 1.6rem;
+
+    padding: 1.5rem 0;
+}
+
+.store-name {
+    width: 100%;
+    background: var(--bgSite);
+
+    color: var(--title);
+    text-align: center;
+    font-weight: 600;
+    font-size: 1.1rem;
+
+    padding: 1.2rem 0;
+}
+
+.slide-img {
+    background: url(../img/wallpaper.png) no-repeat;
+    background-size: cover;
+    min-height: 40rem;
+    background-position: 50% 50%;    
+}
+
+.slide-text {
+    color: var(--white);
+    padding: 15rem;
+}
+
+.slide-text h2{
+    font-size: 3.2rem;
+    font-weight: bold;
+    padding-bottom: 2rem;
+}
+
+.slide-text p {
+    font-size: 1.6rem;
+    font-weight: 600;
+    line-height: 3.5rem;
+}
+
+.main-container {
+    text-align: center;
+}
+
+.container-text {
+    margin: 7rem 1rem;
+}
+
+.container-text h2{
+    font-size: 3.2rem;
+    padding-bottom: 1.5rem;
+    font-weight: 600
+}
+
+.container-text p {
+    font-weight: 500;
+    font-size: 1.8rem;
+}
+
+.shoe-shop {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+    flex-wrap: wrap;
+
+    margin: 0 10rem 20rem;
+}
+
+.product {
+   background: var(--bgCard);
+    padding: 7rem 5rem;
+    margin: 0 2rem 5rem 0;
+
+    cursor: pointer;
+}
+
+.product:hover {
+    transform: scale(1.1);
+    transition: 0.2s ease-in;
+}
+
+footer {
+    width: 100%;
+    background: var(--title);
+    text-align: center;
+    color: var(--bgSite);
+    padding: 1.5rem 0;
+    font-size: 1.8rem;
+    font-weight: 500;
+}
+
+
+/*SCROLL BAR STYLE*/
+
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  
+  ::-webkit-scrollbar-thumb {
+    background: var(--title) ;
+    border-radius: 5px;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: var(--blue-dark);
+  }
+
+
+
+/*MEDIA QUERIES*/
+
+@media (max-width: 705px) {
+    html {
+        font-size: 55%;
+    }
+
+    .slide-text {
+        padding: 15rem 10%;
+    }
+}
+
+
+@media (max-width: 445px) {
+    html {
+        font-size: 50%;
+    }
+
+    .product img {
+        height: 12rem;
+    }
+
+    .slide-text {
+        padding: 15rem 5%;
+    }
+}
+
+@media (max-width: 360px) {
+    html {
+        font-size: 45%;
+    }
+
+    .product img {
+        height: 12rem;
+    }
+
+    .slide-text {
+        padding: 15rem 5%;
+    }
+}
+
