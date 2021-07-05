@@ -4,7 +4,7 @@
 </p>
 
 ## Sobre   
-Este projeto foi desenvolvido para o primeiro desafio da comunidade **[Codelândia](https://discord.com/invite/QevDJqCzaY)**. O objetivo dele era **praticar Front-end**. Clique [aqui]() para testar.
+Este projeto foi desenvolvido para o primeiro desafio da comunidade **[Codelândia](https://discord.com/invite/QevDJqCzaY)**. O objetivo dele era **praticar Front-end**. Clique [aqui](https://sophia-15.github.io/codelandia-jordan/) para testar.
 
 ---
 
