@@ -22,9 +22,10 @@
     <section class="slide">
         <div class="slide-img">
             
-            <div class="slide-text">
+            <div class="slide-text" >
                 <h2>A melhor loja de Jordan</h2>
-                <p>O tênis Jordan é fruto de uma velha e forte <br> parceria entre a Nike e o jogador Michael Jordan.</p>
+                <p id="typed">O tênis Jordan é fruto de uma velha e forte parceria entre a Nike e o jogador Michael Jordan.</p>
+                
             </div>
         </div>
     </section>
@@ -68,5 +69,22 @@
     <footer>
         Todos os direitos reservados.
     </footer>
+
+
+    
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script>
+        const sr = ScrollReveal({
+            origin: 'top',
+            distance: '50px',
+            duration: 2000,
+            reset: true
+        });
+
+        ScrollReveal().reveal('.product', { delay: 200 });
+  	</script>
+
+      <script src="assets/js/script.js"></script>
 </body>
 </html>
