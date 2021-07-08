@@ -11,6 +11,7 @@ Este projeto foi desenvolvido para o primeiro desafio da comunidade **[Codelând
 ## Ferramentas e Tecnologias
 - **HTML5**
 - **CSS3**
+- **Javascript**
 
 
 ---
