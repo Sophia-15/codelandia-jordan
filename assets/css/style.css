@@ -55,6 +55,7 @@ body {
 .slide-img {
     background: url(../img/wallpaper.png) no-repeat;
     background-size: cover;
+    background-attachment: fixed;
     min-height: 40rem;
     background-position: 50% 50%;    
 }
@@ -74,7 +75,22 @@ body {
     font-size: 1.6rem;
     font-weight: 600;
     line-height: 3.5rem;
+    width: 45rem;    
 }
+
+.slide-text p::after {
+    content: '|';
+    animation: blink .7s infinite;
+}
+
+@keyframes blink {
+    0%, 100% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0;
+    }
+  }
 
 .main-container {
     text-align: center;
